@@ -1,8 +1,11 @@
-:update
+:update1
 git clone https://github.com/rraapt66/CMD-VVbysiwat.git
-cd CMD-VVbysiwat
-cd CMD VV
-del CMD VV.bat
-ping -n 2 127.0.0.1>nul
+goto update
+:update
+color a
+git clone https://github.com/rraapt66/CMD-VVbysiwat.git
 echo update Successful
 ping -n 2 127.0.0.1>nul
+goto start
+:start
+start README.md
