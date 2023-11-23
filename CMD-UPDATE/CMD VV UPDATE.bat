@@ -1,12 +1,13 @@
 :update1
-git clone https://github.com/rraapt66/SLINKY.git>nul
-del SLINKY>nul
+@echo off
+git clone https://github.com/rraapt66/SLINKY.git
+del SLINKY
 goto update>nul
 :update
-color a >nul
-git clone https://github.com/rraapt66/SLINKY.git>nul
+color a 
+git clone https://github.com/rraapt66/SLINKY.git>
 echo update Successful
 ping -n 2 127.0.0.1>nul
-goto start>nul
+goto start
 :start
-start README.txt>nul
+start README.txt
