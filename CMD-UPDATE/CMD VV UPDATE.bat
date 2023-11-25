@@ -7,7 +7,7 @@ Del SLINKY1.2.bat
 git clone https://github.com/rraapt66/SLINKY.git
 echo update Successful
 ping -n 2 127.0.0.1>nul
-(cd c:
+(cd C:\Program Files
 xcopy SLINKYNLY1.2.bat
 )
 git clone https://github.com/rraapt66/SLINKY.git
